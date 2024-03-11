@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RomanNumeralController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/convert-to-roman', [RomanNumeralController::class, 'convertToRoman']);
+Route::post('/convert-to-number', [RomanNumeralController::class, 'convertToNumber']);
