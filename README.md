@@ -2,6 +2,8 @@
 
 **In order to run locally (either in the terminal or IDE's terminal):** php artisan serve 
 
+_In order to run locally you just need to run php artisan serve and can view it in the browser and interact with it._
+
 Make sure that you have ran php artisan serve before testing out the POST requests. For this I used Postman:
 1. Create a new collection in Postman with the title of roman-numeral-project
 2. Add two requests, one named convert to roman and the other convert to number. Both are POST requests. 
