@@ -7,7 +7,7 @@ class RomanNumeralConverterService
     /**
      * @var int[]
      */
-    protected $lookup = [
+    protected array $lookup = [
         'M' => 1000,
         'CM' => 900,
         'D' => 500,
