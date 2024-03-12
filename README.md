@@ -1,5 +1,8 @@
 # Roman Numeral Project Instructions
 
+Clone the repo from GitHub onto your own computer in order to test it and also have Postman installed if you wish to test
+the APIs.
+
 **In order to run locally (either in the terminal or IDE's terminal):** php artisan serve 
 
 _In order to run locally you just need to run php artisan serve and can view it in the browser and interact with it._
